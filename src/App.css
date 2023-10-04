@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  max-width: 200px; /* Ancho máximo de la tarjeta */
+  max-height: 300px; /* Altura máxima de la tarjeta */
+  border: 1px solid #ccc; /* Añade un borde para resaltar las tarjetas */
+  margin: 10px; /* Margen entre las tarjetas */
+  padding: 10px; /* Espacio interno de la tarjeta */
+  text-align: center; /* Centra el contenido */
+}

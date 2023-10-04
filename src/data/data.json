@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "titulo": "Chocolate - Milk",
+        "descripcion": "Chocolate con leche",
+        "categoria": 1,
+        "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "titulo": "Chocolate Amargo",
+        "descripcion": "Chocolate 70% Cacao",
+        "categoria": 1,
+        "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "titulo": "Caramelos masticables",
+        "descripcion": "Caramelos blandos",
+        "categoria": 2,
+        "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 4,
+        "titulo": "Confites",
+        "descripcion": "Confites masticables sabor frutal",
+        "categoria": 2,
+        "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 5,
+        "titulo": "Alfajor de fruta",
+        "descripcion": "Alfajor relleno de dulce de membrillo",
+        "categoria": 3,
+        "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+        "precio": 1500,
+        "stock": 10
+    }
+]

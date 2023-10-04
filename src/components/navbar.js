@@ -1,18 +1,19 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-function NavBar() {
+function NavbarComponent() {
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#">Clearmind</Navbar.Brand>
+      <Navbar.Brand as={Link} to="/">Clearmind</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#">Inicio</Nav.Link>
+          <Nav.Link as={Link} to="/">Inicio</Nav.Link>
           <NavDropdown title="Categorías" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#">Categoría 1</NavDropdown.Item>
-            <NavDropdown.Item href="#">Categoría 2</NavDropdown.Item>
-            <NavDropdown.Item href="#">Categoría 3</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/categoria/1">Chocolates</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/categoria/2">Caramelos</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/categoria/3">Alfajores</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
@@ -20,4 +21,5 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavbarComponent;
+
